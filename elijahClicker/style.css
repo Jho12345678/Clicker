@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background: #000000; /* ALWAYS BLACK */
+    font-family: Arial, sans-serif;
+}
+
+#canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#panel {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background: rgba(20,20,20,0.9);
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    z-index: 10;
+}
+
+button {
+    display: block;
+    margin-top: 6px;
+    padding: 6px;
+    width: 200px;
+    cursor: pointer;
+    border-radius: 6px;
+    border: none;
+}
